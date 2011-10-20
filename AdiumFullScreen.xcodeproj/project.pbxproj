@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECD85B4E1450DC7500CA0455 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD85B4D1450DC7500CA0455 /* Cocoa.framework */; };
+		ECD85B581450DC7500CA0455 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECD85B561450DC7500CA0455 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ECD85B4A1450DC7500CA0455 /* AdiumFullScreen.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdiumFullScreen.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD85B4D1450DC7500CA0455 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		ECD85B501450DC7500CA0455 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		ECD85B511450DC7500CA0455 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ECD85B521450DC7500CA0455 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECD85B551450DC7500CA0455 /* AdiumFullScreen-Info.plist */ = {isa = PBXFileReference; path = "AdiumFullScreen-Info.plist"; sourceTree = "<group>"; };
+		ECD85B571450DC7500CA0455 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECD85B591450DC7500CA0455 /* AdiumFullScreen-Prefix.pch */ = {isa = PBXFileReference; path = "AdiumFullScreen-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECD85B471450DC7500CA0455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD85B4E1450DC7500CA0455 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECD85B3F1450DC7400CA0455 = {
+			isa = PBXGroup;
+			children = (
+				ECD85B531450DC7500CA0455 /* AdiumFullScreen */,
+				ECD85B4C1450DC7500CA0455 /* Frameworks */,
+				ECD85B4B1450DC7500CA0455 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECD85B4B1450DC7500CA0455 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECD85B4A1450DC7500CA0455 /* AdiumFullScreen.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECD85B4C1450DC7500CA0455 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECD85B4D1450DC7500CA0455 /* Cocoa.framework */,
+				ECD85B4F1450DC7500CA0455 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECD85B4F1450DC7500CA0455 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECD85B501450DC7500CA0455 /* AppKit.framework */,
+				ECD85B511450DC7500CA0455 /* CoreData.framework */,
+				ECD85B521450DC7500CA0455 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		ECD85B531450DC7500CA0455 /* AdiumFullScreen */ = {
+			isa = PBXGroup;
+			children = (
+				ECD85B541450DC7500CA0455 /* Supporting Files */,
+			);
+			path = AdiumFullScreen;
+			sourceTree = "<group>";
+		};
+		ECD85B541450DC7500CA0455 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECD85B551450DC7500CA0455 /* AdiumFullScreen-Info.plist */,
+				ECD85B561450DC7500CA0455 /* InfoPlist.strings */,
+				ECD85B591450DC7500CA0455 /* AdiumFullScreen-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECD85B491450DC7500CA0455 /* AdiumFullScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD85B5C1450DC7500CA0455 /* Build configuration list for PBXNativeTarget "AdiumFullScreen" */;
+			buildPhases = (
+				ECD85B461450DC7500CA0455 /* Sources */,
+				ECD85B471450DC7500CA0455 /* Frameworks */,
+				ECD85B481450DC7500CA0455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdiumFullScreen;
+			productName = AdiumFullScreen;
+			productReference = ECD85B4A1450DC7500CA0455 /* AdiumFullScreen.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECD85B411450DC7400CA0455 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = ECD85B441450DC7400CA0455 /* Build configuration list for PBXProject "AdiumFullScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECD85B3F1450DC7400CA0455;
+			productRefGroup = ECD85B4B1450DC7500CA0455 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECD85B491450DC7500CA0455 /* AdiumFullScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECD85B481450DC7500CA0455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD85B581450DC7500CA0455 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECD85B461450DC7500CA0455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECD85B561450DC7500CA0455 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECD85B571450DC7500CA0455 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECD85B5A1450DC7500CA0455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ECD85B5B1450DC7500CA0455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ECD85B5D1450DC7500CA0455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdiumFullScreen/AdiumFullScreen-Prefix.pch";
+				INFOPLIST_FILE = "AdiumFullScreen/AdiumFullScreen-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		ECD85B5E1450DC7500CA0455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdiumFullScreen/AdiumFullScreen-Prefix.pch";
+				INFOPLIST_FILE = "AdiumFullScreen/AdiumFullScreen-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECD85B441450DC7400CA0455 /* Build configuration list for PBXProject "AdiumFullScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD85B5A1450DC7500CA0455 /* Debug */,
+				ECD85B5B1450DC7500CA0455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECD85B5C1450DC7500CA0455 /* Build configuration list for PBXNativeTarget "AdiumFullScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD85B5D1450DC7500CA0455 /* Debug */,
+				ECD85B5E1450DC7500CA0455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECD85B411450DC7400CA0455 /* Project object */;
+}
