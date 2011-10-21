@@ -50,7 +50,7 @@
 
 - (NSString *)pluginDescription
 {
-    return @"Adum Fullscreen support on 10.7";
+    return @"Adium Fullscreen support on 10.7";
 }
 
 - (NSString *)pluginURL
