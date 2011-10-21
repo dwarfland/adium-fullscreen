@@ -10,9 +10,9 @@
 		ECD85B4E1450DC7500CA0455 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD85B4D1450DC7500CA0455 /* Cocoa.framework */; };
 		ECD85B581450DC7500CA0455 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECD85B561450DC7500CA0455 /* InfoPlist.strings */; };
 		ECD85B611450DD4900CA0455 /* FullScreenPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD85B601450DD4900CA0455 /* FullScreenPlugin.m */; };
-		ECD85B631450E42200CA0455 /* Adium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD85B621450E42200CA0455 /* Adium.framework */; };
 		ECD85B651450E55E00CA0455 /* AdiumFullScreen.AdiumPlugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = ECD85B4A1450DC7500CA0455 /* AdiumFullScreen.AdiumPlugin */; };
 		ECD85B671450EB7A00CA0455 /* AIUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD85B661450EB7A00CA0455 /* AIUtilities.framework */; };
+		ECD85B791450F3B700CA0455 /* Adium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD85B781450F3B700CA0455 /* Adium.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,8 +39,8 @@
 		ECD85B591450DC7500CA0455 /* AdiumFullScreen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdiumFullScreen-Prefix.pch"; sourceTree = "<group>"; };
 		ECD85B5F1450DD4900CA0455 /* FullScreenPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullScreenPlugin.h; sourceTree = "<group>"; };
 		ECD85B601450DD4900CA0455 /* FullScreenPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullScreenPlugin.m; sourceTree = "<group>"; };
-		ECD85B621450E42200CA0455 /* Adium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Adium.framework; sourceTree = "<group>"; };
 		ECD85B661450EB7A00CA0455 /* AIUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AIUtilities.framework; path = ../../Applications/Adium.app/Contents/Frameworks/AIUtilities.framework; sourceTree = "<group>"; };
+		ECD85B781450F3B700CA0455 /* Adium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Adium.framework; path = ../../Applications/Adium.app/Contents/Frameworks/Adium.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,8 +49,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECD85B4E1450DC7500CA0455 /* Cocoa.framework in Frameworks */,
-				ECD85B631450E42200CA0455 /* Adium.framework in Frameworks */,
 				ECD85B671450EB7A00CA0455 /* AIUtilities.framework in Frameworks */,
+				ECD85B791450F3B700CA0455 /* Adium.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,8 +88,8 @@
 		ECD85B4F1450DC7500CA0455 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ECD85B781450F3B700CA0455 /* Adium.framework */,
 				ECD85B661450EB7A00CA0455 /* AIUtilities.framework */,
-				ECD85B621450E42200CA0455 /* Adium.framework */,
 				ECD85B501450DC7500CA0455 /* AppKit.framework */,
 				ECD85B511450DC7500CA0455 /* CoreData.framework */,
 				ECD85B521450DC7500CA0455 /* Foundation.framework */,
